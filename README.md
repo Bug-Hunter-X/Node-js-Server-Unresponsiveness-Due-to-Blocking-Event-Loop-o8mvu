@@ -1,0 +1,1 @@
+This repository demonstrates a common Node.js issue: blocking the event loop with a long-running operation in the request handler.  This leads to the server becoming unresponsive to new requests. The `bug.js` file showcases the problem, while `bugSolution.js` provides a solution using asynchronous operations.
